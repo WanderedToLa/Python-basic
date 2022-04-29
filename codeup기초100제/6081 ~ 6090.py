@@ -27,3 +27,5 @@
 #             print(i ,j, k ,sep=' ')
 
 # print(r*g*b)
+
+#6084
