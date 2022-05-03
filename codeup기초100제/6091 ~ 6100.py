@@ -2,19 +2,22 @@
 # a , b , c = map(int , input().split())
 # d = 1
 
-# while d%a!= 0 or d%b!=0 or d%c!=0:
+# while d%a!= 0 or d%b!=0 or d%c!=0: #1부터 입력된값으로 나눔
 #     d = d + 1
-# print(d)
+# print(d) #세가지 경우 전부 0일 때 값 출력 -> 최소 공배수
 
 #6092 출석번호 부르기 1
-n = int(input())
-a = input().split()
+# n = int(input())
+# a = input().split() # 무작위로 부르는 값
 
-for i in range(n):
-    a[i] = int(a[i])
+# for i in range(n): #출석을 부르는 횟수 만큼 반복
+#     a[i] = int(a[i]) # a에 입력된 값을 순서대로 정수형으로 저장
+# d = []
+# for i in range(24):
+#     d.append(0)
+# for i in range(n):
+#     d[a[i]] += 1 #번호를 부를때마다 카운트 1씩 증가
+# for i in range(1 , 24):
+#     print(d[i] , end=' ')
 
-d = []
-for i in range(24):
-    d.append(0)
-
-print(d)
+#6093 출석번호 부르기2
