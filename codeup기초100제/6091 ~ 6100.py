@@ -7,3 +7,14 @@
 # print(d)
 
 #6092 출석번호 부르기 1
+n = int(input())
+a = input().split()
+
+for i in range(n):
+    a[i] = int(a[i])
+
+d = []
+for i in range(24):
+    d.append(0)
+
+print(d)
