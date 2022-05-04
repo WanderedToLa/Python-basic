@@ -21,3 +21,22 @@
 #     print(d[i] , end=' ')
 
 #6093 출석번호 부르기2
+# n = int(input())
+# a = input().split()
+
+# for i in range(n -1 , -1 , -1):
+#     print(a[i] , end=' ')
+
+#6094 출석번호 부르기3
+# n = int(input())
+# a = list(map(int , input().split())) # 리스트로 저장
+# result = 0
+
+# for i in a:
+#     if result == 0 or i < result :
+#         result = i
+# print(result)
+
+#6095 바둑알 생성하기
+d = [[0 for i in range(20)] for i in range(20)]
+print(d)
