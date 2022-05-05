@@ -39,4 +39,10 @@
 
 #6095 바둑알 생성하기
 d = [[0 for i in range(20)] for i in range(20)]
+
+n = int(input())
+
+for i in range(n):
+    x , y = input().split()
+    d[int(x)][int(y)] = 1
 print(d)
