@@ -9,7 +9,6 @@ for i in range(19) : #바둑판 입력 받기
     for j in range(19) :
         d[i+1][j+1] = int(a[j])
 
-
 n = int(input()) #뒤집을 횟수
 
 for i in range(n):
